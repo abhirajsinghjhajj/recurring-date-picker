@@ -1,64 +1,36 @@
-# 📅 Recurring Date Picker
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-A React + Zustand + TailwindCSS component library that allows users to configure and preview recurring date rules using the `rrule` library.
+## Getting Started
 
-## ✨ Features
-
-- Select frequency (Daily, Weekly, Monthly, Yearly)
-- Choose custom intervals (e.g., every 2 weeks)
-- Set date ranges (start and end)
-- Customize weekday/monthly patterns
-- Live calendar preview of recurring dates
-- Console export of RRULE string and next 10 occurrences
-- TailwindCSS styled, responsive, and modular UI
-
----
-
-## 🧱 Project Structure
-
-```
-src/
-├── app/
-│ ├── components/
-│ │ ├── RecurringDatePicker.js
-│ │ ├── RecurrenceOptions.js
-│ │ ├── WeeklySelector.js
-│ │ ├── MonthlySelector.js
-│ │ ├── DateRangeSelector.js
-│ │ ├── CalendarPreview.js
-│ │ └── OccurrencesList.js
-│ ├── styles/
-│ │ └── datePickerStyles.css
-│ ├── page.js
-│ └── layout.js
-├── store/
-│ └── useRecurrenceStore.js
-├── utils/
-│ └── rruleHelper.js
-├── globals.css
-├── tailwind.config.js
-├── postcss.config.mjs
-└── tests/
-├── RecurrenceOptions.test.js
-├── RecurringDatePicker.test.js
-└── rruleHelper.test.js
-```
-
-
----
-
-## 🛠️ Tech Stack
-
-- **React (Functional Components)**
-- **Zustand** (Global store management)
-- **Tailwind CSS** (UI styling)
-- **RRule.js** (Recurrence rule parsing & generation)
-- **Jest + React Testing Library** (Unit + Integration testing)
-- **Next.js** (App layout and routing)
-
----
-
-## 🧪 Running Tests
+First, run the development server:
 
 ```bash
-npm test
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
