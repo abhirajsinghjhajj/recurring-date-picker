@@ -2,9 +2,10 @@
 
 A modern, interactive, and highly customizable recurring date picker component built with React. This tool allows users to define complex recurrence patterns (daily, weekly, monthly, yearly) and instantly preview the results on a calendar and in a summary view.
 
-*(Replace the above URL with a screenshot or GIF of your actual project)*
+---
+## 🌐 Live Preview
 
------
+🔗 **[Click here for preview](https://repeat-date-selector.netlify.app/)**
 
 ## ✨ Features
 
@@ -41,7 +42,7 @@ You need to have Node.js and npm installed on your machine.
 1.  **Clone the repo**
 
     ```sh
-    git clone https://github.com/your-username/recurring-date-picker.git
+    git clone https://github.com/abhirajsinghjhajj/recurring-date-picker
     ```
 
 2.  **Navigate to the project directory**
