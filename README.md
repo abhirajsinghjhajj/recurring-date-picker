@@ -8,7 +8,12 @@ A **React**-based single-page application that allows users to create, preview, 
 - Configure interval and specific days/weeks  
 - Set date range: never end, end on a specific date, or after a number of occurrences  
 - Live calendar preview with start date and recurring dates highlighted  
-- Pattern summary with human-readable description and next 5 occurrences  
+- Pattern summary with human-readable description and next 5 occurrences
+
+---
+## 🌐 Live Preview
+
+🔗 **[Click here for preview](https://repeat-date-selector.netlify.app/)**
 
 ## Table of Contents
 
