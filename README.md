@@ -63,7 +63,7 @@ You need to have Node.js and npm installed on your machine.
     npm run dev
     ```
 
-    The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
+    The application will be available at `http://localhost:3000` (or another port if 3000 is in use).
 
 -----
 
