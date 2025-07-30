@@ -1,56 +1,46 @@
-# 📅 Recurring Date Picker
+# Recurring Date Picker
 
-A fully-featured and visually appealing React-based Recurring Date Picker built using **React 18 + Tailwind CSS**. This component enables users to create complex repeat schedules based on daily, weekly, monthly, or yearly patterns — similar to recurrence features in apps like Google Calendar or TickTick.
+A **React**-based single-page application that allows users to create, preview, and summarize recurring date patterns. Built with React 18, TailwindCSS, and a token-driven design system for light/dark modes.
 
----
-## 🌐 Live Preview
+## Features
 
-🔗 **[Click here for preview](https://sparkling-pony-1133e6.netlify.app/)**
+- Choose recurrence type: Daily, Weekly, Monthly, Yearly  
+- Configure interval and specific days/weeks  
+- Set date range: never end, end on a specific date, or after a number of occurrences  
+- Live calendar preview with start date and recurring dates highlighted  
+- Pattern summary with human-readable description and next 5 occurrences  
 
-## ✨ Features
+## Table of Contents
 
-✅ Daily, Weekly, Monthly, Yearly recurrence options  
-✅ Custom intervals like "every 2 weeks" or "every 3 months"  
-✅ Weekday selection for weekly patterns  
-✅ Monthly patterns like "Second Tuesday of every month"  
-✅ Select start date and optional end condition (Never, On date, After X occurrences)  
-✅ Live mini calendar preview of upcoming recurring dates  
-✅ Pattern summary in human-readable format  
-✅ Responsive & accessible with light/dark mode  
-✅ Clean code, modular components, fully in Plain JavaScript
+1. [Demo](#demo)  
+2. [Getting Started](#getting-started)  
+   1. [Prerequisites](#prerequisites)  
+   2. [Installation](#installation)  
+   3. [Available Scripts](#available-scripts)  
+3. [Project Structure](#project-structure)  
+4. [Design & Styles](#design--styles)  
+5. [Customization](#customization)  
+6. [License](#license)
 
----
+## Demo
 
-## 🛠️ Tech Stack
+*Add your demo link or screenshots here if available.*
 
-| Tech              | Description            |
-|------------------|------------------------|
-| React 18         | UI Components          |
-| Context API      | State Management       |
-| Tailwind CSS     | Styling Framework      |
-| Babel Standalone | JSX transpilation (CDN)|
-| HTML/CSS/JS      | No build tools required|
+## Getting Started
 
----
+### Prerequisites
 
-## 📁 Project Structure
-```
-├── index.html # Main HTML file with CDN for React + Tailwind
-├── style.css # All styling, themed using CSS variables
-├── app.js # Main React component logic
-└── README.md # Project instructions and documentation
-```
+- Node.js ≥ 16  
+- npm or yarn  
 
+### Installation
 
----
+1. Clone the repository  
+- git clone https://github.com/abhirajsinghjhajj/recurring-date-picker
 
-## 🚀 Getting Started
+2. Install dependencies  
+- npm install
+  Or
+- yarn install
 
-### 🧬 Prerequisites
-
-- Make sure you have a browser (Chrome, Firefox, Safari, Edge)
-- No need to install Node.js or NPM (uses CDNs)
-- Optionally, use a cloud IDE like CodeSandbox, StackBlitz, or GitHub Codespaces
-
----
-
+3. 
